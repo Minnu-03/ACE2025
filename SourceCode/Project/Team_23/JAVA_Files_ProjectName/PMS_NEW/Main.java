@@ -14,12 +14,12 @@ public class Main {
         while (true) {
             System.out.println("Enter a number:\n1. Admin\n2. Vehicle Owner\n3. Parking Lot Manager\n4. Submit a Request\n5. Update Request Status\n6. View Open Requests\n7. Exit");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1: // Admin Case
                 case 2: // Vehicle Owner Case
-                case 3: // Parking Lot Manager Case
+                case 3: 
                     handleUserActions(choice, scanner, formatter);
                     break;
                 case 4:
